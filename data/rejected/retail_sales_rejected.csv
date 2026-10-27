@@ -1,0 +1,126 @@
+transaction_date,store_id,product_id,category,units_sold,unit_price,promotion_flag,stock_on_hand,rejection_reason
+2025-06-18,ST001,P012,personal care,27.0,447.07,0,75.0,exact duplicate row
+2025-02-02,ST001,P008,household,25.0,322.26,0,76.0,exact duplicate row
+2025-03-17,ST004,P001,beverages,25.0,65.94,0,31.0,exact duplicate row
+2025-11-06,ST002,P005,snacks,11.0,208.05,0,54.0,exact duplicate row
+2025-10-13,ST004,P002,beverages,23.0,345.63,0,66.0,exact duplicate row
+2025-03-02,ST002,P002,beverages,32.0,354.92,0,81.0,exact duplicate row
+2025-07-03,ST001,P007,household,26.0,65.24,0,67.0,exact duplicate row
+2025-08-21,ST004,P007,household,25.0,65.0,0,54.0,exact duplicate row
+2026-04-26,ST001,P010,personal care,19.0,68.6,0,9.0,exact duplicate row
+2025-06-24,ST003,P012,personal care,44.0,401.95,1,48.0,exact duplicate row
+2025-02-07,ST004,P006,snacks,11.0,397.91,0,88.0,exact duplicate row
+2025-07-11,ST003,P003,beverages,45.0,301.63,0,119.0,exact duplicate row
+2025-05-17,ST004,P003,beverages,33.0,306.55,0,63.0,exact duplicate row
+2025-09-05,ST004,P008,household,18.0,297.52,1,71.0,exact duplicate row
+2026-02-11,ST001,P009,household,17.0,118.18,0,112.0,exact duplicate row
+2026-06-11,ST004,P010,personal care,23.0,69.66,0,55.0,exact duplicate row
+2026-04-22,ST004,P002,beverages,17.0,355.29,0,67.0,exact duplicate row
+2026-06-05,ST004,P004,snacks,27.0,212.32,0,93.0,exact duplicate row
+2025-04-13,ST003,P007,household,51.0,65.02,0,48.0,exact duplicate row
+2026-02-26,ST002,P006,snacks,12.0,388.17,0,59.0,exact duplicate row
+2025-01-13,ST003,P010,personal care,25.0,68.67,0,46.0,exact duplicate row
+2025-04-29,ST002,P002,beverages,29.0,363.09,0,67.0,exact duplicate row
+2026-04-11,ST002,P002,beverages,,353.16,0,40.0,missing units_sold
+2025-10-15,ST001,P001,beverages,,67.28,0,74.0,missing units_sold
+2025-05-09,ST003,P005,snacks,,184.02,1,48.0,missing units_sold
+2026-02-02,ST001,P003,beverages,,300.41,0,35.0,missing units_sold
+2025-08-10,ST004,P012,personal care,,436.31,0,43.0,missing units_sold
+2025-09-22,ST003,P008,household,,322.13,0,87.0,missing units_sold
+2026-02-22,ST003,P003,beverages,,306.36,0,60.0,missing units_sold
+2025-02-04,ST002,P004,snacks,,218.44,0,68.0,missing units_sold
+2025-01-09,ST004,P004,snacks,,210.76,0,48.0,missing units_sold
+2025-12-31,ST003,P012,personal care,,436.08,0,39.0,missing units_sold
+2026-04-27,ST002,P011,personal care,,249.25,0,107.0,missing units_sold
+2026-05-13,ST002,P012,personal care,,443.52,0,54.0,missing units_sold
+2026-02-02,ST002,P008,household,,317.57,0,56.0,missing units_sold
+2025-12-20,ST003,P011,personal care,,246.45,0,68.0,missing units_sold
+2026-06-19,ST001,P001,beverages,,66.96,0,97.0,missing units_sold
+2025-06-09,ST001,P003,beverages,,303.43,0,18.0,missing units_sold
+2025-01-27,ST002,P006,snacks,,395.83,0,88.0,missing units_sold
+2026-05-03,ST001,P008,household,,314.76,0,55.0,missing units_sold
+2026-02-19,ST001,P011,personal care,,248.4,0,78.0,missing units_sold
+2025-07-16,ST004,P009,household,,115.86,0,83.0,missing units_sold
+2026-03-14,ST003,P006,snacks,,396.76,0,66.0,missing units_sold
+2026-02-16,ST004,P002,beverages,,348.26,0,58.0,missing units_sold
+2025-08-22,ST003,P004,snacks,,213.15,0,61.0,missing units_sold
+2025-02-12,ST004,P008,household,,322.32,0,122.0,missing units_sold
+2025-06-22,ST002,P004,snacks,,212.43,0,73.0,missing units_sold
+2025-06-17,ST002,P002,beverages,,348.83,0,108.0,missing units_sold
+2025-08-02,ST004,P004,snacks,,214.82,0,68.0,missing units_sold
+2025-06-18,ST002,P011,personal care,,248.09,0,115.0,missing units_sold
+2026-04-14,ST004,P011,personal care,,253.18,0,41.0,missing units_sold
+2025-08-13,ST004,P012,personal care,,434.33,0,42.0,missing units_sold
+2025-03-29,ST003,P002,beverages,,362.42,0,69.0,missing units_sold
+2025-05-30,ST001,P003,beverages,,305.17,0,46.0,missing units_sold
+2025-12-21,ST003,P008,household,,320.86,0,22.0,missing units_sold
+2025-07-21,ST002,P006,snacks,,384.5,0,106.0,missing units_sold
+2025-12-20,ST004,P006,snacks,,387.26,0,31.0,missing units_sold
+2026-04-29,ST001,P004,snacks,-5.0,210.21,0,76.0,negative units_sold - business meaning unclear
+2025-09-09,ST003,P010,personal care,-1.0,68.12,0,94.0,negative units_sold - business meaning unclear
+2025-12-21,ST002,P011,personal care,-4.0,248.06,0,48.0,negative units_sold - business meaning unclear
+2025-09-10,ST004,P007,household,-7.0,66.32,0,54.0,negative units_sold - business meaning unclear
+2025-09-12,ST004,P007,household,-2.0,66.13,0,93.0,negative units_sold - business meaning unclear
+2025-12-28,ST003,P007,household,-6.0,67.71,0,39.0,negative units_sold - business meaning unclear
+2026-04-18,ST003,P001,beverages,-1.0,66.73,0,0.0,negative units_sold - business meaning unclear
+2026-02-28,ST004,P005,snacks,-6.0,214.04,0,45.0,negative units_sold - business meaning unclear
+2026-04-19,ST004,P010,personal care,-4.0,68.05,0,64.0,negative units_sold - business meaning unclear
+2025-02-09,ST004,P010,personal care,-6.0,68.17,0,102.0,negative units_sold - business meaning unclear
+2025-10-26,ST001,P007,household,-2.0,59.3,1,81.0,negative units_sold - business meaning unclear
+2025-06-06,ST003,P006,snacks,-2.0,388.78,0,95.0,negative units_sold - business meaning unclear
+2025-05-06,ST003,P010,personal care,-5.0,69.54,0,55.0,negative units_sold - business meaning unclear
+2026-04-12,ST001,P002,beverages,-7.0,357.2,0,38.0,negative units_sold - business meaning unclear
+2026-05-15,ST004,P008,household,-7.0,322.39,0,65.0,negative units_sold - business meaning unclear
+2025-05-14,ST002,P005,snacks,-6.0,216.1,0,48.0,negative units_sold - business meaning unclear
+2026-06-02,ST002,P011,personal care,5.0,0.0,0,72.0,unit_price is zero - business meaning unclear
+2026-04-08,ST001,P008,household,24.0,0.0,1,73.0,unit_price is zero - business meaning unclear
+2025-08-17,ST001,P002,beverages,37.0,0.0,0,57.0,unit_price is zero - business meaning unclear
+2026-01-22,ST001,P006,snacks,9.0,0.0,0,87.0,unit_price is zero - business meaning unclear
+2025-03-07,ST004,P009,household,16.0,0.0,0,81.0,unit_price is zero - business meaning unclear
+2025-05-31,ST001,P009,household,19.0,0.0,0,90.0,unit_price is zero - business meaning unclear
+2025-05-29,ST001,P001,beverages,21.0,0.0,0,65.0,unit_price is zero - business meaning unclear
+2025-11-27,ST003,P006,snacks,12.0,0.0,0,98.0,unit_price is zero - business meaning unclear
+2026-05-18,ST001,P010,personal care,17.0,0.0,0,106.0,unit_price is zero - business meaning unclear
+2025-06-22,ST001,P003,beverages,25.0,0.0,0,65.0,unit_price is zero - business meaning unclear
+2025-01-17,ST001,P010,personal care,11.0,68.24,2,28.0,promotion_flag is 2 - business meaning unclear
+2026-06-07,ST002,P007,household,44.0,60.07,2,46.0,promotion_flag is 2 - business meaning unclear
+2025-01-26,ST004,P004,snacks,34.0,217.45,2,52.0,promotion_flag is 2 - business meaning unclear
+2025-09-13,ST004,P012,personal care,40.0,441.18,2,13.0,promotion_flag is 2 - business meaning unclear
+2026-06-23,ST004,P006,snacks,10.0,386.96,2,37.0,promotion_flag is 2 - business meaning unclear
+2025-10-11,ST003,P008,household,19.0,318.98,2,17.0,promotion_flag is 2 - business meaning unclear
+2025-07-05,ST001,P006,snacks,10.0,386.1,2,63.0,promotion_flag is 2 - business meaning unclear
+2025-03-12,ST001,P011,personal care,13.0,246.58,2,83.0,promotion_flag is 2 - business meaning unclear
+2025-01-11,ST002,P007,household,23.0,66.53,0,,missing stock_on_hand
+2025-04-29,ST002,P012,personal care,35.0,440.79,0,,missing stock_on_hand
+2025-09-01,ST001,P005,snacks,22.0,211.75,0,,missing stock_on_hand
+2026-06-10,ST003,P001,beverages,41.0,65.93,0,,missing stock_on_hand
+2025-07-08,ST004,P002,beverages,26.0,354.05,0,,missing stock_on_hand
+2026-06-14,ST001,P004,snacks,38.0,217.35,0,,missing stock_on_hand
+2025-09-18,ST003,P006,snacks,11.0,400.49,0,,missing stock_on_hand
+2025-05-12,ST003,P011,personal care,16.0,251.25,0,,missing stock_on_hand
+2026-02-03,ST004,P002,beverages,26.0,349.09,0,,missing stock_on_hand
+2026-01-28,ST003,P012,personal care,49.0,437.84,0,,missing stock_on_hand
+2025-06-24,ST004,P001,beverages,21.0,67.34,0,,missing stock_on_hand
+2026-04-15,ST001,P009,household,21.0,114.95,0,,missing stock_on_hand
+2025-01-26,ST004,P001,beverages,23.0,63.98,0,,missing stock_on_hand
+2025-03-14,ST002,P007,household,35.0,66.22,0,,missing stock_on_hand
+2025-06-29,ST004,P002,beverages,41.0,355.64,0,,missing stock_on_hand
+2025-10-23,ST004,P008,household,15.0,325.28,0,,missing stock_on_hand
+2025-01-24,ST001,P010,personal care,14.0,68.9,0,,missing stock_on_hand
+2025-06-12,ST001,P004,snacks,26.0,216.69,0,,missing stock_on_hand
+2026-02-01,ST003,P001,beverages,30.0,67.72,0,,missing stock_on_hand
+2026-04-12,ST002,P008,household,25.0,323.14,0,,missing stock_on_hand
+2026-05-14,ST004,P010,personal care,20.0,69.59,0,,missing stock_on_hand
+2025-10-10,ST002,P005,snacks,9.0,215.06,0,,missing stock_on_hand
+2026-01-31,ST004,P001,beverages,30.0,66.32,0,,missing stock_on_hand
+2025-09-11,ST001,P011,personal care,9.0,251.94,0,,missing stock_on_hand
+2025-07-15,ST003,P010,personal care,22.0,68.96,0,,missing stock_on_hand
+2025-04-27,ST003,P007,household,39.0,65.56,0,,missing stock_on_hand
+2026-01-30,ST003,P007,household,45.0,67.54,0,,missing stock_on_hand
+2026-01-10,ST001,P008,household,28.0,324.13,0,,missing stock_on_hand
+2025-04-02,ST001,UNKNOWN,snacks,21.0,213.71,0,81.0,product_id is UNKNOWN - cannot identify product reliably
+2025-07-28,ST004,UNKNOWN,personal care,38.0,440.43,0,88.0,product_id is UNKNOWN - cannot identify product reliably
+2025-07-30,ST003,UNKNOWN,household,27.0,103.27,1,57.0,product_id is UNKNOWN - cannot identify product reliably
+2026-05-02,ST002,UNKNOWN,personal care,38.0,449.11,0,73.0,product_id is UNKNOWN - cannot identify product reliably
+2026-05-09,ST002,UNKNOWN,household,41.0,66.32,0,58.0,product_id is UNKNOWN - cannot identify product reliably
+2025-05-13,ST001,UNKNOWN,beverages,39.0,66.84,0,60.0,product_id is UNKNOWN - cannot identify product reliably
