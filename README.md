@@ -27,23 +27,55 @@ Management needs better visibility into future demand so that inventory and supp
 
 The forecasting system is intended to support these decisions by providing future demand estimates.
 
-## Current Scope
+## Development Progress
 
-The project is currently in the project initiation and system design stage.
+This project is being developed step by step through structured engineering sprints.
 
-Sprint 001 focuses on understanding the business problem and defining how the project should begin.
+### Sprint 001 — Business Understanding and System Design ✅
 
-The current scope includes:
+Sprint 001 focused on understanding the business problem and planning the initial direction of the project.
 
-- Business problem understanding
-- Client discovery questions
-- Initial data requirements
-- Data quality considerations
-- High-level system architecture
-- Initial GitHub repository structure
-- One-week development plan
+Completed work included:
 
-Machine learning model development, API development, and deployment are not part of Sprint 001.
+- business problem understanding
+- client discovery questions
+- initial data requirements
+- data quality considerations
+- high-level system architecture
+- initial GitHub repository structure
+- initial development plan
+
+The Sprint 001 work is kept in the `docs/` folder and forms the foundation for the later development stages.
+
+### Sprint 002 — Data Understanding, Cleaning and Validation ✅
+
+Sprint 002 moved the project from planning into the first working data engineering stage.
+
+Completed work included:
+
+- exploration of the raw retail sales dataset
+- identification of data-quality issues
+- reusable data cleaning functions
+- reusable data validation checks
+- cleaned and rejected datasets
+- automated pipeline tests
+- data-understanding notebook
+- data dictionary
+- data quality report
+- Sprint 002 handover documentation
+- Git feature branch and Pull Request workflow
+
+### Sprint 002 Results
+
+The raw dataset contained **26,230 rows**.
+
+After cleaning:
+
+- **26,105 rows** remained in the cleaned dataset
+- **125 rows** were preserved in the rejected dataset
+- **5 automated tests** are passing
+
+The project now has a clean and validated data foundation that can be used for the next stages of demand analysis, feature engineering, and forecasting.
 
 ## Assumptions
 
@@ -96,12 +128,125 @@ The proposed high-level architecture shows the expected journey of data through 
 ```text
 retail-demand-forecasting-platform/
 │
-├── README.md
-├── .gitignore
+├── data/
+│   ├── raw/
+│   │   └── Sprint_002_Retail_Sales_Data.csv
+│   │
+│   ├── processed/
+│   │   └── retail_sales_cleaned.csv
+│   │
+│   └── rejected/
+│       └── retail_sales_rejected.csv
 │
-└── docs/
-    ├── problem-understanding.md
-    ├── client-questions.md
-    ├── data-requirements.md
-    ├── architecture.png
-    └── week-1-plan.md
+├── docs/
+│   ├── architecture.png
+│   ├── client-questions.md
+│   ├── data-dictionary.md
+│   ├── data-quality-report.md
+│   ├── data-requirements.md
+│   ├── problem-understanding.md
+│   ├── sprint-002-handover.md
+│   └── week-1-plan.md
+│
+├── notebooks/
+│   └── 01_data_understanding.ipynb
+│
+├── src/
+│   └── data/
+│       ├── clean.py
+│       ├── load.py
+│       └── validate.py
+│
+├── tests/
+│   └── test_data_pipeline.py
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
+The Sprint 001 files are still retained in `docs/`, including the architecture, business understanding, client questions, data requirements, and initial plan.
+
+Sprint 002 adds the working data pipeline, notebook, tests, cleaned outputs, rejected outputs, and supporting documentation.
+## How to Run the Sprint 002 Data Pipeline
+
+From the project root folder, run:
+
+```bash
+python src/data/load.py
+```
+
+This will:
+
+- load the raw retail dataset
+- apply the cleaning rules
+- save the cleaned dataset
+- save the rejected dataset
+- print a short summary in the terminal
+
+Expected result:
+
+```text
+Raw rows: 26230
+Cleaned rows: 26105
+Rejected rows: 125
+```
+
+## Run the Automated Tests
+
+To check that the pipeline is working correctly, run:
+
+```bash
+python -m pytest -q
+```
+
+Expected result:
+
+```text
+5 passed
+```
+## Sprint 002 Documentation
+
+The main Sprint 002 documentation is available here:
+
+- [Data Understanding Notebook](notebooks/01_data_understanding.ipynb)  
+  Shows the raw-data exploration, data-quality checks, cleaning decisions, and final validation.
+
+- [Data Dictionary](docs/data-dictionary.md)  
+  Explains each dataset column, its expected type, and the cleaning rules applied.
+
+- [Data Quality Report](docs/data-quality-report.md)  
+  Summarizes the data-quality issues found in the raw dataset and how each issue was handled.
+
+- [Sprint 002 Handover](docs/sprint-002-handover.md)  
+  Summarizes the completed pipeline, final results, important files, and how to run the project.
+
+  ## Next Steps
+
+Sprint 001 and Sprint 002 are complete.
+
+The project now has:
+
+- a clear business problem and system architecture
+- documented data requirements
+- a validated raw dataset
+- a reusable cleaning pipeline
+- cleaned and rejected datasets
+- automated tests
+- supporting technical documentation
+
+The next stage will focus on building the forecasting foundation.
+
+Planned Sprint 003 work includes:
+
+- deeper exploratory data analysis
+- sales trend analysis
+- seasonality analysis
+- store-level demand analysis
+- product-level demand analysis
+- time-based feature engineering
+- preparation of forecasting-ready datasets
+- creation of a simple baseline forecasting model
+- evaluation of baseline model performance
+
+Later sprints will build on this foundation with improved forecasting models, prediction pipelines, APIs or dashboards, monitoring, and deployment.
